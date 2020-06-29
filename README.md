@@ -23,7 +23,7 @@ Approach to the problem :
 
 Things that could have been tried out with more time and resources: 
 
-1) Different loss functions - used just dice and IOU here  
+1) Different loss functions - used just DICE loss and IOU loss here  
 2) Other architectures - stuck to UNET here -can possibly RESNETS and also deeper UNETS
 3) Ensamble modelling - key to win kaggle challenges 
 4) Using Pretrained models 
