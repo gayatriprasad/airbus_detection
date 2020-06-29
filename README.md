@@ -24,9 +24,14 @@ Approach to the problem :
 Things that could have been tried out with more time and resources: 
 
 1) Different loss functions - used just dice and IOU here  
-2) Other architectures - stuck to UNET here - possibly resnets
+2) Other architectures - stuck to UNET here -can possibly RESNETS and also deeper UNETS
 3) Ensamble modelling - key to win kaggle challenges 
 4) Using Pretrained models 
 5) Stuck to Adam as optimiser - personally I would go with SGD with momentum 
+6) Different activation function (used ReLU - can try ELU)
+7) Different weight initialization 
+8) Different batch size and epochs 
+
+
 
 
