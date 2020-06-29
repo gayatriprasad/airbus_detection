@@ -3,8 +3,8 @@ This is an attempt to submit to the Kaggle Challenge for Airbus to detect ships.
 
 The details and data can be found at https://www.kaggle.com/c/airbus-ship-detection
 
-Points I have learnt: 
-1) First time used RLE encoding and decoding - previously used masks images 
+Approach to the problem : 
+1) First time used RLE encoding and decoding - I previously only worked with masks images 
 2) Encoded connected regions as separated masks
 3) RLE Function : 1 - mask, 0 - background
 4) Take the individual ship masks and create a single mask array for all ships
